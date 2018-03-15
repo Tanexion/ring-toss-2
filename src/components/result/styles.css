@@ -1,0 +1,8 @@
+.result {
+  height: 20rem;
+}
+
+.result__image {
+  height: inherit;
+  margin-top: 5rem;
+}

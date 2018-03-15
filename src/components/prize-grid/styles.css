@@ -1,0 +1,67 @@
+.prize-grid {
+  height: 30rem;
+  width: inherit;
+  display: flex;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.prize-grid__gift {
+  position: absolute;
+  left: 1rem;
+  bottom: 17rem;
+}
+
+.prize-grid__gift2 {
+  position: absolute;
+  left: 20rem;
+  bottom: 5rem;
+}
+
+.prize-grid__gift3 {
+  position: absolute;
+  left: 11rem;
+  bottom: 11rem;
+}
+
+.prize-grid__product2 {
+  position: absolute;
+  left: 7rem;
+  bottom: 13rem;
+}
+
+.prize-grid__product3 {
+  position: absolute;
+  left: 3rem;
+  bottom: 8rem;
+}
+
+.prize-grid__product4 {
+  position: absolute;
+  left: 21rem;
+  bottom: 14rem;
+}
+
+.prize-grid__product5 {
+  position: absolute;
+  left: 17rem;
+  bottom: 12rem;
+}
+
+.prize-grid__product6 {
+  position: absolute;
+  left: 14rem;
+  bottom: 17rem;
+}
+
+.prize-grid__product7 {
+  position: absolute;
+  left: 17rem;
+  bottom: 7rem;
+}
+
+.prize-grid__product8 {
+  position: absolute;
+  left: 11rem;
+  bottom: 5rem;
+}

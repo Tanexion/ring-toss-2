@@ -1,0 +1,37 @@
+.ring {
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  -webkit-animation: grow 2s infinite linear alternate;
+  -moz-animation: grow 2s infinite linear alternate;
+
+  transition: transform 1s;
+  animation: grow 2s infinite linear alternate;
+}
+
+.ring__wrapper{
+ height: inherit;
+ width: inherit;
+}
+
+@-webkit-keyframes grow {
+  50% {
+    -webkit-transform:scale(2.333);
+  }
+}
+
+@-moz-keyframes grow {
+  50% {
+    -moz-transform:scale(2.333);
+  }
+}
+
+@keyframes grow {
+  50% {
+    transform:scale(2.333);
+  }
+}
