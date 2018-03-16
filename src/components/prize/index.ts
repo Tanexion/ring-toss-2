@@ -1,1 +1,0 @@
-export { Prize } from './component';

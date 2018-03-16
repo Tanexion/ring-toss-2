@@ -1,1 +1,0 @@
-export { PrizeGrid } from './component';

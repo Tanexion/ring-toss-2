@@ -1,1 +1,0 @@
-export { Ring } from './component';
